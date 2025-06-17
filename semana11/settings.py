@@ -118,7 +118,9 @@ STATIC_URL = 'static/'
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 JAZZMIN_SETTINGS = {
+    "site_title": "Administrador de Jazzmin",
     "welcome_sign": "Bienvenido a tu página de administración preferida",
+    "copyright": "Derechos Reservados - Clase de Plataformas Web",
     "navigation_expanded": False,
     "topmenu_links": [
         {"name": "Support", "url": "https://github.com/farridav/django-jazzmin/issues", "new_window": True},
